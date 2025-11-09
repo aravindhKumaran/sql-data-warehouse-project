@@ -24,6 +24,7 @@ CREATE TABLE silver.crm_cust_info (
     dwh_create_date    DATETIME2 DEFAULT GETDATE()
 );
 GO
+ 
 
 IF OBJECT_ID('silver.crm_prd_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_prd_info;
